@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
 const MongoClient = require('mongodb').MongoClient;
 
 // Connection URL
-const url = `mongodb+srv://${env.DB_USER}:${env.DB_PASS}@cluster0.xzynl.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
+const url = `mongodb+srv://${DB_USER}:${DB_PASS}@cluster0.xzynl.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
 
 // Use connect method to connect to the Server
 MongoClient.connect(url, function (err, client) {
