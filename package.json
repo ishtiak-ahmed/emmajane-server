@@ -1,0 +1,19 @@
+{
+  "name": "emmajane-server",
+  "version": "1.0.0",
+  "description": "Emma Jane Server With Node MongoDB",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ishtiak Ahmed",
+  "license": "ISC"
+}
